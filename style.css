@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('img/6674f0cdb5b7b401612cf065_noise-50.avif');
+    background-color: rgb(34, 35, 38);
+    font-family: 'Fira Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px 40px;
+    border-bottom: 1px solid rgb(162, 162, 168);
+}
+.nav-left{
+    display: flex;
+    align-content: center;
+    gap: 2rem;
+}
+.nav-logo{
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.nav-links li a{
+    color: rgb(162, 162, 168);
+    font-weight: 400;
+    transition: all 0.2s ease;
+}
+.nav-links li a:hover{
+    color: #ffffff;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-btn{
+    padding: 8px 20px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 1.01rem;
+    border-radius: 5px;
+    width: 90px;
+    cursor: pointer;
+}
+.login{
+    border: 1px solid #ffffff;
+}
+.join{
+    border: 1px solid rgb(255, 77, 77);
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 700px;
+}
+.header-container{
+    padding: 5rem 0;
+    text-align: center;
+}
+.header-container .header-title{
+    max-width: 1000px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 1.5rem auto;
+    font-size: 6.5rem;
+}
+.header-container .header-title span{
+    background-image: linear-gradient(to right, #f29871, #ff4d4d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text ;
+}
