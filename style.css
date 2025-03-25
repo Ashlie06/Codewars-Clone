@@ -119,7 +119,7 @@ header{
 .grid-container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: 450px, 800px;
     gap: 1rem;
     max-width: 1200px;
     margin: auto;
@@ -132,7 +132,8 @@ header{
 }
 .grid-container .first{
     grid-column: 1/6;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 2rem;
     background-image: 
@@ -144,6 +145,9 @@ header{
 .grid-container .second{
     grid-column: 1/3;
 }
+.grid-container .second .grid-img{
+    padding: 0 64px 64px 64px;
+}
 .grid-container .third{
     grid-column: 3/6;
 }
@@ -152,9 +156,17 @@ header{
     max-width: 600px;
     color: #ffffff;
 }
-.grid-content span{
+.grid-content .grid-span{
     background-color: #ff4d4d;
     padding: 16px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    display: inline-block;
+}
+.grid-content span{
+    background-color: rgb(69, 69, 73);
+    padding: 16px;
+    font-size: 1.5rem;
     border-radius: 5px;
     display: inline-block;
 }
