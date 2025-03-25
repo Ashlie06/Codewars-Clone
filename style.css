@@ -74,14 +74,14 @@ img{
 .join{
     border: 1px solid rgb(255, 77, 77);
 }
-header{
+.header{
     z-index: 1;
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 700px;
+    height: 850px;
 }
 .header-container{
     max-width: 900px;
@@ -151,6 +151,13 @@ header{
 .grid-container .third{
     grid-column: 3/6;
 }
+.grid-container .third .grid-img{
+    padding-top: 1.2rem;
+}
+.grid-container .third .grid-content{
+    width: 100%;
+    max-width: 1200px;
+}
 .grid-content{
     padding: 64px;
     max-width: 600px;
@@ -190,4 +197,19 @@ header{
     width: 150px;
     cursor: pointer;
     border: 1px solid #ffffff;
+}
+.second{
+    height: auto;
+}
+.second .header-container{
+    max-width: 880px;
+    padding: 5rem 0;
+}
+.second .header-title{
+    font-size: 4rem;
+}
+.second .header-text{
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 45px;
 }
